@@ -1,0 +1,19 @@
+fastapi>=0.95.0
+uvicorn[standard]>=0.21.0
+httpx>=0.24.0
+pydantic>=1.10.0
+python-dotenv>=1.0.0
+
+# Strands Agents SDK (placeholder name). If you have the official SDK,
+# replace this with the real package name/version used in your environment.
+# For example, if the official package is named `strands` or `strands_agents`,
+# install that package instead and remove/comment the placeholder below.
+# Example (run in venv):
+#   pip install strands==x.y.z
+# Use the official Strands Agents SDK package if you want SDK integration.
+# Installed for local testing in this workspace:
+strands-agents==1.18.0
+
+# Optional developer/test helpers
+pytest>=7.0.0
+requests>=2.31.0
