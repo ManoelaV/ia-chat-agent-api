@@ -16,7 +16,7 @@ Sumário
   - configurar `.env`
   - puxar modelo Ollama (`gemma3`) — opcional
   - iniciar a API (uvicorn) e usar scripts auxiliares
-- Comandos de teste (PowerShell / Python / curl)
+- Comandos de teste (PowerShell / Python )
 - Troubleshooting
 - Arquivos úteis e scripts
 
@@ -32,6 +32,7 @@ Pré-requisitos
 
 - Python 3.9+ (recomendado)
 - PowerShell (Windows) ou terminal de sua preferência
+- 16GB de ram (Foi encontrado problemas ao tentar rodar com menos)
 - (Opcional) Ollama instalado localmente para executar modelos (https://ollama.com)
 
 Obs: Se não quiser usar modelo local, o agente pode rodar em modo mock definindo `MOCK_AGENT=true` no `.env`.
